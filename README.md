@@ -31,7 +31,7 @@ In the model several elements need specifications in order to make the model sui
 
 For the activities in the model the following parameters can be provided in the properties:
 * **processing_time:** D(var)\
-  For each activity in the model the processing time should be provided. The distribution can be denoted by either the normal distribution: *N(mu,sigma)* or the exponential distribution: *exp(lambda)*.
+  For each activity in the model the processing time should be provided. The distribution can be denoted by either the normal distribution: *N(mu,sigma)*, the exponential distribution: *exp(lambda)* or the uniform distribution: *U(lb, ub)*.
 * **queueing_strategy:** [Strategy]\
   Each activity has a queue in the simulation model, the queueing strategy of this queue is by default First In, First Out (FIFO). If another queueing principle is applied this can be specified per activity. The queueing principle can have the values FIFO, LIFO or RNDM. LIFO stands for Last In, First Out and RNDM is a random order of sorting the cases in a queue for an activity. 
 * **resource_dependency:** [Dependency]\
