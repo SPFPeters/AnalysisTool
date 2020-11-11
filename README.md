@@ -21,7 +21,7 @@ The simulator also supports analytic calculations of processing times, waiting t
 
 The BPMN Models need to be enhanced in order to make them suitable for simulation. In order to do so the documentation section of many elements will be used to specify properties of the model in order to build the simulation model. On the pool level of a process the following need to be specified:
 * **case_attributes:** [Name]: D(var) ; ... ; [Name]: D(var)\
-  For each case attribute the name of the attribute and the distribution needs to be defined. Distributions can be denoted by the normal distribution: N(mu,sigma) or the exponential distribution: exp(lambda). Also a categorical distribution is supported by: *[{item, n%}, ... ,{item,n%}]*. Case attributes are split by a semicolon. 
+  For each case attribute the name of the attribute and the distribution needs to be defined. Distributions can be denoted by the normal distribution: N(mu,sigma), the exponential distribution: exp(lambda) or the uniform distribution: *U(lb, ub)*. Also a categorical distribution is supported by: *[{item, n%}, ... ,{item,n%}]*. Case attributes are split by a semicolon. 
 * **resource_types:** [Role]: #n ; ... ; [Role]: #n\
   For each resource type the amount of resources of that type need to be specified in an integer. Furthermore combined types can be defined by *[Role1, ... ,RoleN]* for the Role field, the resource has than all roles and will serve Role1 first and RoleN last in the execution of the process. A type of resource can be up to all roles defined in the process model combined. If a role does not exist in the process there it cannot be associated to any resource type.
 
