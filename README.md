@@ -9,7 +9,7 @@ This Analysis Tool combines an implementation of an advanced business process si
 
 # Binary
 
-The binary of the simulator is downloadable from [the build folder in the simulator_gui project](https://github.com/spfpeters/analysistool/raw/master/analysis_gui/build/analysistool.jar). This binary takes the form of an executable jar.
+The binary of the analysis tool is downloadable from [the build folder in the analysis_gui project](https://github.com/spfpeters/analysistool/raw/master/analysis_gui/build/analysistool.jar). This binary takes the form of an executable jar.
 
 The program should be self-explanatory. Several test models are provided as part of the simulator_engine project. A comprehensive test model, for example, is the [BPMN Example Model](https://raw.githubusercontent.com/rmdijkman/simulator/master/simulator_engine/resources/tests/Example%20Process%20BPMN.bpmn). The models are made in [Signavio](https://www.signavio.com/) and can be imported there for viewing. Arrival distributions, processing time distributions, resources, etc. can be specified as part of the documentation of tasks and pools in the BPMN model. The syntax for doing this is explained below.
 
